@@ -1,3 +1,2 @@
-If(ture == true)
+Nothings ja eiei
 
-	else
