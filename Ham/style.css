@@ -1,0 +1,55 @@
+.head {
+	text-align: center;
+	font-family: "Times New Roman";
+    font-size: 50px;
+}
+.head2 h1{
+	position: absolute;
+    top: 80px;
+	left: 215px;
+}
+.head2 {
+
+    display: none;
+	font-family: "Times New Roman";
+    font-size: 50px;
+
+}
+.head3 h1{
+	position: absolute;
+    top: 100px;
+	left: 215px;
+	
+}
+.head3 {
+	display: none;
+	font-family: "Times New Roman";
+    font-size: 50px;
+}
+.head4 h1{
+	position: absolute;
+    top: 70px;
+	left: 400px;
+	
+}
+.head4 {
+	display: none;
+	font-family: "Times New Roman";
+    font-size: 50px;
+}
+.head5 {
+	position: absolute;
+    left: 570px;
+}
+
+
+.block {
+	display: block;
+}
+@-webkit-keyframes spinreverse {
+	0%  {-webkit-transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(-360deg);}	
+}
+.head5 {
+	-webkit-animation: spinreverse 7s infinite linear;
+}
